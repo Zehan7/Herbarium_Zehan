@@ -56,3 +56,6 @@ body{
   border-bottom: solid #BFDE76 2px;
   width:70%;
 }
+  .nav-links{
+    !important
+  }

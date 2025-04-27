@@ -25,7 +25,7 @@
           <a class="nav-link" href="Poem.html">POEM</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
+          <a class="nav-links" href="#">ABOUT</a>
         </li>
       </ul>
     </div>
@@ -49,10 +49,19 @@
     </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
-    <script> 
-    swal('Namaskar',"Thank you for giving chance to my website","success"); 
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+window.onload = function() {
+Swal.fire({
+  title: 'Page is loaded',
+  html: '<img src="https://i.ibb.co/zVZ8Qwqf/Clipped-image-20250426-153425.png" width="200px">',
+  timer: 3000,
+  confirmButtonText: 'Ok!',
+  showConfirmButton: true
+});
+};
+</script>
+
   </body>
 </html>
   
